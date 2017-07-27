@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Arq_Box versão 1.0">
+        <meta name="author" content="Guilherme Souza Vieira" >
+
+        <title>Arq-Box</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- CSS Principal -->
+        <link href="css/arq-box.css" rel="stylesheet">
+
+        <!-- Fontes -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+         <!--Font Awesome-->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+       
+        <div class="header">
+                <!--Cor da logo: rgb(41, 169, 150)-->
+                <div class="logo"><img src="imagens/ArqBox.png"></div>
+                <div class="address-bar">Arquitetura de Containers</div>
+            </div>
+            <!-- Navigation -->
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container">
+                        <!-- Logo e menu agrupados para exibição em mobiles -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Navegação de Alternância(toggle)</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                            <a class="navbar-brand" href="index.html"><img src="imagens/ArqBox.png" style="border-radius: 110px;" width="50" height="50"></a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="index.html">Início</a>
+                                </li>
+                                <li>
+                                    <a href="portfolio.html">Portfólio</a>
+                                </li>
+                                <li>
+                                    <a href="quemsomos.html">Quem Somos</a>
+                                </li>
+                                <li class="active">
+                                    <a href="contato.html">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container -->
+                </nav>
+       
+
+            <!--div class="conteudo"-->
+            	<div class="row sobre">
+                    <h1>Contato</h1>
+        				<div class="col-sm-6">
+                			<div class="well">
+                    			<h3><i class="fa fa-home fa-1x"></i>  Endereço:</h3>               
+                    				<p>Av. Jovino Fernandes de Sales, 2600 - Santa Clara, Alfenas - MG, 37130-000</p>
+                    					<br />
+                    					<br />
+                    					<h3><i class="fa fa-envelope fa-1x"></i> E-Mail:</h3>
+                    					<p>a14012@bcc.unifal-mg.edu.br</p>
+                    					<br />
+                    					<br />
+                    					<h3><i class="fa fa-phone" aria-hidden="true"></i></i> Telefone:</h3>
+                    					<p>(xx)xxxx - xxxx</p>
+                    					<br />
+                    					<br />
+                    			<h3><i class="fa fa-rocket" aria-hidden="true"></i> Suporte:</h3>
+                    				<p><a href="www.tribitjr.com" target="_blank">tribitjr.com</a></p>
+               			    </div>
+        				</div>
+                    	<div class="col-lg-5 col-sm-6 col-xs-6">
+                            <h3>Localização</h3>
+                           <!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.201143179267!2d-45.98674348453805!3d-21.421337485787042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b5f69c93d83c47%3A0x3e04bdb531ba69ea!2sUniversidade+Federal+de+Alfenas+-+Unidade+II!5e0!3m2!1spt-BR!2sbr!4v1499885487512" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe-->
+                    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.201270187108!2d-45.98674884896528!3d-21.421332491869272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b5f69c93d83c47%3A0x3e04bdb531ba69ea!2sUniversidade+Federal+de+Alfenas+-+Unidade+II!5e0!3m2!1spt-BR!2sbr!4v1499878040159" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    	</div>
+                </div>
+            <!--/div>
+                  <!--Contato-->
+                
+                    <div class="contato">
+                        <h2>Envie-nos uma mensagem:</h2>
+                        <form action="contato.php" name="meu_form" method="POST"> 
+                            <p class="nome"> 
+                                <input type="text" id="nomeid" placeholder="Entre com seu nome" required="required" name="nome" /> 
+                            </p>
+                            <p class="fone">
+                                <input type="text" id="foneid" placeholder="(xx) xxxxx-xxxx" name="fone" /> 
+                            </p>
+                            <p> 
+                                <input type="email" id="emailid" placeholder="exemplo@mail.com" name="email" required autofocus/> 
+                            </p>
+                            <p> 
+                                <textarea placeholder="Deixe sua mensagem" text-align="center"></textarea> 
+                            </p> 
+                            <p class="submit"> <input type="submit" onclick="Enviar();" value="Enviar" /> 
+                            </p> 
+                        </form>
+                        
+                    </div>
+                
+            <div class="parallax ImgContato">
+                <div class="caption">
+                    <span class="border">ENJOYYY</span>
+                </div>
+            </div>
+
+        <footer>
+            <!--div class="container"-->
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                            <div class="redes-sociais">
+                                <a href="https://www.facebook.com/tribitjr/?fref=ts" target="_blank"><img src="img/fb.png"></a>
+                                <a href="#" target="_blank"><img src="img/gmail.png"></a>
+                                <a href="#" target="_blank"><img src="img/yt.png"></a>
+                                <a href="https://www.instagram.com/tribitjr/" target="_blank"><img src="img/in.png"></a>
+                            </div>
+                        <p>Copyright &copy; ArqBox 2017</p>
+                    </div>
+                </div>
+            <!--/div-->
+        </footer>
+  
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>       
+
+    </body>
+
+</html>

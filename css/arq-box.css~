@@ -1,0 +1,365 @@
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/Container-docker.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.logo,
+.address-bar {
+    display: none;
+}
+
+.navbar-logo {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.logo-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.logo-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/*
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+*/
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+.redes-sociais{
+    margin-top: 58px;
+    margin-bottom: 55px;
+    width: 50%;
+    float: right;
+}
+.redes-sociais img{
+    height: 40px;
+}
+
+/*Carousel*/
+
+.slideshow{
+	height: 600px;
+	width: 100%;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carousel-inner,.carousel,.item,.container,.fill {
+  height:100%;
+  width:100%;
+  background-position:center center;
+  background-size:cover;
+}
+.slide-wrapper{display:inline;}
+.slide-wrapper .container{padding:0px;}
+
+/*------------------------------ vertical bootstrap slider----------------------------*/
+
+.carousel-inner> .item.next ,  .carousel-inner > .item.active.right{ transform: translate3d(0, 100%, 0); -webkit-transform: translate3d(0, 100%, 0); -ms-transform: translate3d(0, 100%, 0); -moz-transform: translate3d(0, 100%, 0); -o-transform: translate3d(0, 100%, 0);  top: 0;}
+.carousel-inner > .item.prev ,.carousel-inner > .item.active.left{ transform: translate3d(0,-100%, 0); -webkit-transform: translate3d(0,-100%, 0);  -moz-transform: translate3d(0,-100%, 0);-ms-transform: translate3d(0,-100%, 0); -o-transform: translate3d(0,-100%, 0); top: 0;}
+.carousel-inner > .item.next.left , .carousel-inner > .item.prev.right , .carousel-inner > .item.active{transform:translate3d(0,0,0); -webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);; -moz-transform:translate3d(0,0,0); -o-transform:translate3d(0,0,0); top:0;}
+
+/*------------------------------- vertical carousel indicators ------------------------------*/
+.carousel-indicators{
+position:absolute;
+top:0;
+bottom:0;
+margin:auto;
+height:20px;
+right:10px; left:auto;
+width:auto;
+}
+.carousel-indicators li{display:block; margin-bottom:5px; border:1px solid #00a199; }
+.carousel-indicators li.active{margin-bottom:5px; background:#00a199;}
+/*Fim carousel*/
+
+
+.colunaImg-esq{
+    float: left;
+    /*width: 40%;*/
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-bottom: 45px; 
+}
+/*
+.colunaTexto-dir{
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: right;
+}
+*/
+.colunaImg-dir{
+    float: right;
+    /*width: 40%;*/
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-bottom: 45px;
+}
+
+.colunaTexto-esq{
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    /*float: left;*/
+}
+
+.row {
+    margin: auto;
+}
+
+.feature-divider{
+    width: 900px;
+    height: 10px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+/*fim das rows*/
+/*Imagen embaixo*/
+.parallax{
+    background-image: url(../imagens/1333413140-02-20110623-dsc4511-edit-3-1000x664-720x480-c.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100%;
+    height: 500px;
+}
+.caption {
+    /*position: absolute;*/
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+/*Fim da imagem com parallax*/
+
+/*footer*/
+footer {
+    background: #fff;
+    background: rgba(0,0,0,0.8);
+}
+
+footer p {
+    color: white;
+    margin: 15px;
+    width: 43%;
+    padding: 50px 0;
+}
+/*fim do footer*/
+
+/*Responsivo*/
+@media screen and (min-width:768px) {
+    .logo {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: lightseagreen;
+    }
+
+    /*Conteúdo abaixo do slideshow no index.html, rows*/
+    .conteudo{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: black;
+    }
+
+    .header{
+        background: rgba(255,255,255, 0.75);
+    }
+    
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+	margin-bottom: 15px;
+	margin-top: 10px;
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        margin:0px;
+        width: 100%;
+        border: none;
+        background: rgba(0,0,0,0.8);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        color: white;
+        line-height: normal;
+    }
+    
+    .navbar-default .navbar-nav > li > a:hover {
+        color: black;
+        background-color: lightseagreen;
+    }
+
+/*  
+Mantendo a página certa ativada no header 
+Linhas 3843 - 3867 bootstrap.min.css
+*/
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
+    color: lightseagreen;
+    background-color: transparent;
+    text-decoration: underline;
+    }
+
+    .navbar-default .navbar-nav > .active > a:hover {
+      color: black;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+/*fim navbar*/
+
+/*Navbar Brand: responsivo*/
+    .navbar-brand {
+         float: left;
+        height: 50px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
